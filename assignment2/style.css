@@ -1,0 +1,210 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Okt 14, 10:52:18
+    Author     : hartico.caesario
+*/
+
+body {
+    background: orange;
+	font-family: 'Glegoo', serif;
+    
+}
+ 
+.header {
+    background: black;
+    width : 100%;
+    position :  fixed;
+    padding-bottom: 10px;
+    padding-left : 7px; 
+    margin : -8px;
+    
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 28px;
+  color : white;
+}
+h2 {
+	font-size: 35px;
+	margin: 0px;
+        color : orange;
+}
+#dataDisplay{
+	
+	margin-top : 8%;
+	left : 3%;
+	width : 27%;
+	height: 500px;
+	float: left;
+}
+#poinBox{
+	border-radius: 10px;
+ 	text-align : center;
+	margin-top: 10%;
+    	margin-left : 20%;
+    	margin-bottom: 15%;
+    	width : 120px;
+	height: 150px;
+	background-color: black;
+	color : white;
+}
+#skor {
+    
+	width : fit-content;
+        font-size: 50px;
+      	color : white;
+	text-align: center;
+	margin-top: -10px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	text-transform: uppercase
+           
+}
+
+.log-permainan {
+	border :"3px solid black";
+    	border-radius:5px;
+	float:left;
+	text-align:center;
+	background-color : black;
+	color:white;
+	margin-left : 20%;
+	margin-bottom : 15%; 
+
+}
+
+.set {
+
+    	width:5vh;
+    	height:40px;
+    	display:inline-block;
+	text-transform : capitalize;
+	text-weight : bold;
+	margin-top : 10px;
+	
+}
+
+#gameArena {
+	width : 60%;
+	margin: 0 auto;
+}
+
+#dataDisplay, #status, #gameArena {
+	float: left;
+	text-align: center;
+}
+
+#hangman {
+	width: 200px;
+	margin-top : 15%;
+	clear: both;
+	padding: 0 200px;
+}
+
+#dataDisplay, #status {
+	width: 20%;
+	margin-top : 10%;
+	
+}
+.keyboard  {
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+.myButton {
+  font-family: 'Glegoo', serif;
+  margin: 3px 1px;
+  width: 50px;
+  height: 55px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: hand;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: white;
+ 	-webkit-transition: .4s;
+		 -moz-transition: .4s;
+			 -o-transition: .4s;
+			-ms-transition: .4s;
+			  	transition: .4s;
+}
+.myButton:hover {
+	background-color: yellow;
+}
+
+.myButton:active {
+	border-color:orange;
+}
+.buttonTambahan {
+  font-family: 'Glegoo', serif;
+  margin: 3px 10px;
+  width: 180px;
+  height: 60px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: hand;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  color : white;
+ 	-webkit-transition: .4s;
+		 -moz-transition: .4s;
+			 -o-transition: .4s;
+			-ms-transition: .4s;
+			  	transition: .4s;
+}
+.buttonTambahan:hover {
+	background-color: yellow;
+	color : black;
+}
+
+.buttonTambahan:active {
+	border-color:orange;
+}
+
+#tebakKata {
+	height: 50px;
+	text-align="center";
+
+}
+
+#tebakKata p {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+        
+#boxMenang, #boxKalah {
+	height: 100px;
+	width: 100px;
+	color : white;
+	text-align: center;
+	padding-top: 1px;
+	margin-top: 20px;
+ 	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: black;
+}
+
+#mulaiYuk p{
+		display:inline;
+	}
+	
+        
+        

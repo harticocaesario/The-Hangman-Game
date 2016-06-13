@@ -1,0 +1,4 @@
+Nama	: Hartico Caesario Octama
+
+Hangman Game ini dapat diakses melalui
+	mahasiswa.cs.ui.ac.id/~hartico.caesario/assignment2

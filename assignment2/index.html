@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>The Hangman Game</title>
+        <meta charset="UTF-8">
+         <link type="text/css" rel="stylesheet" href="style.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+                  
+    </head>
+    
+    <body onLoad="loadXMLDoc();">
+
+        <div class="header">
+            <h1>The Hangman Game</h1>
+        </div>
+          
+        <div id = "dataDisplay">
+            <div id = "poinBox" >
+                <h2>Score</h2> 
+				<p id = "skor"> 0 </p>
+			</div>
+            
+			<table class="log-permainan">
+				<tr><th colspan="2">Game Stats</th></tr>
+					<tr>  
+						<th>No.</th>
+						<th>Score</th>
+					</tr>
+					<tr>
+						<td id="gameKe_1">-</td>
+						<td id="scoreKe_1">-</td>
+					</tr>
+			</table>
+
+        </div>
+        
+		<div id=gameArena>
+			<img src="0.jpg" alt="hangman" id="hangman">         
+		
+			<div id="tebakKata">
+				<p id="set"></p>
+			</div>
+                                                                       
+			<div class="keyboard" >
+				<button value="space" id="start" class="buttonTambahan">START</button>
+				<button value="quit" id="quit" class="buttonTambahan">QUIT</button>
+				<br>
+		
+				<button value="q" id="q" class="myButton">Q</button>
+				<button value="w" id="w" class="myButton">W</button>
+				<button value="e" id="e" class="myButton">E</button>
+				<button value="r" id="r" class="myButton">R</button>
+				<button value="t" id="t" class="myButton">T</button>
+				<button value="y" id="y" class="myButton">Y</button>
+				<button value="u" id="u" class="myButton">U</button>
+				<button value="i" id="i" class="myButton">I</button>
+				<button value="o" id="o" class="myButton">O</button>
+				<button value="p" id="p" class="myButton">P</button>
+				<br/>
+                                                                                                          
+				<button value="a" id="a" class="myButton">A</button>
+				<button value="s" id="s" class="myButton">S</button>
+				<button value="d" id="d" class="myButton">D</button>
+				<button value="f" id="f" class="myButton">F</button>
+				<button value="g" id="g" class="myButton">G</button>
+				<button value="h" id="h" class="myButton">H</button>
+				<button value="j" id="j" class="myButton">J</button>
+				<button value="k" id="k" class="myButton">K</button>
+				<button value="l" id="l" class="myButton">L</button>
+				<br />
+
+				<button value="z" id="z" class="myButton">Z</button>
+				<button value="x" id="x" class="myButton">X</button>
+				<button value="c" id="c" class="myButton">C</button>
+				<button value="v" id="v" class="myButton">V</button>
+				<button value="b" id="b" class="myButton">B</button>
+				<button value="n" id="n" class="myButton">N</button>
+				<button value="m" id="m" class="myButton">M</button>
+			</div>
+       </div> 
+	   
+        <div id="status" >
+            
+			<div id="boxMenang">Win(s):
+                <h2 id="kemenangan">0</h2>
+            </div>
+			<div id="boxKalah">Lose(s):
+				<h2 id="kekalahan">0</h2>
+			</div>
+           
+        </div>
+            
+    </body>
+</html>
