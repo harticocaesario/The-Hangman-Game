@@ -92,6 +92,7 @@ h2 {
 #gameArena {
 	width : 60%;
 	margin: 0 auto;
+	
 }
 
 #dataDisplay, #status, #gameArena {
@@ -100,10 +101,10 @@ h2 {
 }
 
 #hangman {
-	width: 200px;
+	width: 25%;
 	margin-top : 15%;
 	clear: both;
-	padding: 0 200px;
+	padding: 0 150px;
 }
 
 #dataDisplay, #status {
@@ -113,9 +114,9 @@ h2 {
 }
 .keyboard  {
 	margin: 0 auto;
-	position: relative;
 	text-align: center;
 }
+
 .myButton {
   font-family: 'Glegoo', serif;
   margin: 3px 1px;
@@ -174,8 +175,12 @@ h2 {
 }
 
 #tebakKata {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px
 	height: 50px;
 	text-align="center";
+	padding: 10px;
 
 }
 
